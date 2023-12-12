@@ -12,14 +12,40 @@ const Sidebar = () => {
           alt=""
         />
 
-        <div>
-          <ul>
-            <li className="items">Dashboard</li>
-            <li>Stock</li>
-            <li>Orders</li>
-            <li>Products</li>
-          </ul>
-        </div>
+        <ul>
+          <li className="items">
+            <img
+              height={20}
+              src="https://cdn-icons-png.flaticon.com/128/1828/1828765.png"
+              alt="imgicon"
+            />
+            <a href="#">Dashboard</a>
+          </li>
+          <li className="items">
+            <img
+              height={20}
+              src="https://cdn-icons-png.flaticon.com/128/1828/1828765.png"
+              alt="imgicon"
+            />
+            <a href="#">Stocks</a>
+          </li>
+          <li className="items">
+            <img
+              height={20}
+              src="https://cdn-icons-png.flaticon.com/128/1828/1828765.png"
+              alt="imgicon"
+            />
+            <a href="#">orders</a>
+          </li>
+          <li className="items">
+            <img
+              height={20}
+              src="https://cdn-icons-png.flaticon.com/128/1828/1828765.png"
+              alt="imgicon"
+            />
+            <a href="#">Products</a>
+          </li>
+        </ul>
       </div>
     </>
   );
